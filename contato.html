@@ -41,7 +41,39 @@
             <img src="./M_M logo.png" alt="logo da M.M" width="250px">
         </div>
 
+        <div class="col-4"></div>
+        <div class="col-4">
+            <div class="login-container">
+                <div class="text-center">
+                    <h2>Fale Conosco!</h2>
+                </div>
+                <form id="login-form">
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Nome do Usúario</label>
+                        <input type="text" class="form-control" name="username" required>
+                    </div>
 
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Email:</label>
+                        <input type="password" id="password" name="password" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Comentário:</label>
+                        <input type="comentario" id="comentario" name="comentario" class="form-control" required>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                        <button type="reset" class="btn btn-danger">Limpar</button>
+                    </div>
+                </form>
+                <div class="mb-3">
+                    <p id="error-message-Login" class="error"></p>
+                </div>
+            </div>
+            <div class="col-4  "></div>
+        </div>
 
     </div>
 
