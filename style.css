@@ -129,9 +129,16 @@ body {
     text-align: center;
 }
 
+.tamanho {
+    width: auto;
+    height: auto;
+}
 .login-container {
+    position: auto;
+    width: 500px;
+    bottom: 100px;
+    left: 600px;
     margin-top: 30%;
-
     padding: 50px;
     border-radius: 30px;
     -webkit-box-shadow: 27px 18px 45px 0px rgba(0,0,0,1);
