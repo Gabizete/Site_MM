@@ -129,4 +129,20 @@ body {
     text-align: center;
 }
 
+.login-container {
+    margin-top: 30%;
 
+    padding: 50px;
+    border-radius: 30px;
+    -webkit-box-shadow: 27px 18px 45px 0px rgba(0,0,0,1);
+-moz-box-shadow: 27px 18px 45px 0px rgba(0,0,0,1);
+box-shadow: 27px 18px 45px 0px rgba(0,0,0,1);
+}
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+h2{
+    margin-bottom: 5%;
+}
